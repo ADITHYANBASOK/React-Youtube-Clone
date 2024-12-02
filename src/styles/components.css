@@ -1,0 +1,21 @@
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-full transition-colors duration-200;
+  }
+  
+  .btn-primary {
+    @apply bg-yt-red text-white hover:bg-red-700;
+  }
+  
+  .input-search {
+    @apply w-full px-4 py-2 bg-yt-light-black text-white rounded-l-full focus:outline-none focus:ring-2 focus:ring-yt-red focus:ring-opacity-50;
+  }
+  
+  .video-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4;
+  }
+  
+  .nav-link {
+    @apply flex items-center px-6 py-3 hover:bg-yt-light-black text-white transition-colors duration-200;
+  }
+}
