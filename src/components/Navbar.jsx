@@ -24,10 +24,11 @@ export default function Navbar({ toggleSidebar }) {
         </button>
         <Link to="/" className="ml-4 flex items-center">
           <img
-            src="/youtube-logo.png"
-            alt="YouTube"
+            src="/youtubeclone.png"
+            alt="YouTube-Clone"
             className="h-5"
           />
+           Youtube Clone
         </Link>
       </div>
 
