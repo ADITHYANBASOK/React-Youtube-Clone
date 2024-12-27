@@ -1,8 +1,47 @@
-# React + Vite
+# YouTube Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive YouTube-like application built with React and Vite, utilizing the YouTube Data API for dynamic video content. This project demonstrates core React concepts, routing with `react-router-dom`, and a clean UI using Tailwind CSS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Trending Videos**: Display trending content fetched from the YouTube API.
+- **Dynamic Sidebar**: Collapsible sidebar for easy navigation.
+- **Video Categories**: Explore different categories like Music, Gaming, and Movies.
+- **Video Details**: View detailed information about a specific video.
+- **Search Functionality**: Find videos with keyword-based search.
+
+---
+
+## Tech Stack
+
+- **Frontend**: React, Vite, Tailwind CSS
+- **Routing**: `react-router-dom`
+- **API Integration**: Custom hooks and YouTube Data API
+- **State Management**: React's `useState` and `useEffect`
+
+---
+
+## Installation
+
+### Prerequisites
+
+- Node.js and npm installed
+- API key for the YouTube Data API
+
+### Steps
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ADITHYANBASOK/youtube-clone.git
+   cd youtube-clone
+
+2. Install dependencies:
+   
+   npm install
+
+3. Run the app in development mode:
+ 
+   npm run dev
