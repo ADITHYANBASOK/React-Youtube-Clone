@@ -2,6 +2,7 @@
 
 A responsive YouTube-like application built with React and Vite, utilizing the YouTube Data API for dynamic video content. This project demonstrates core React concepts, routing with `react-router-dom`, and a clean UI using Tailwind CSS.
 
+
 ---
 
 ## Features
