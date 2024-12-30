@@ -26,6 +26,6 @@ export default {
   },
   plugins: [
     // require('@tailwindcss/line-clamp'),
-    require('@tailwindcss/aspect-ratio'),
+    ('@tailwindcss/aspect-ratio'),
   ],
 }
